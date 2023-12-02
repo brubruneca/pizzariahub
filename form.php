@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form-html">
+</head>
+<body>
+
+<header>
+        <h1>Cadastro de Clientes | Padaria Santista</h1>
+    </header>
+
+    <main class = "text">
+        <?php
+            $nome = $_GET [ "nome"]
+            $telefone = $GET [ "telefone"]
+            $email = $GET ["email"]
+
+            echo "<p> Obrigado  por cadastrar-se em nosso site $nome. Esperamos que desfrute de uma ótima experiência, agradecemos pela preferência e confiança em nossos serviços!<\p>" ;
+        ?>
+
+        <button class = "button-home" >
+            <a href="index.html"> Voltar a página inicial</a>
+        </button>
+    </main>
+
+</body>
+</html>

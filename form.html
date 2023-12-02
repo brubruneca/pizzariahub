@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA HUB | FORMULÁRIO</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    width: 100%; /* Largura */
+    height: 100vh; /**/
+    background-image: url(imagens/massa-de-pizza.webp); 
+    background-position: center;/*Posicionamento a imagem ao centro*/
+    background-repeat: no-repeat; /*Colocamos para que a img não se repita */
+    background-size: cover; /*Aqui atribuimos para que a imagem fique sobre toda nossa página*/
+    display: flex; /*Resposavel por colocar os itens na mesma linha (lado a lado)*/
+    align-items: center;/* Alinhar itens ao centro*/
+    justify-content: center; /*Justificar conteúdo ao centro*/
+}
+
+.div-form{ /* Aqui estamos chmando nossa Class da DIV PAI*/
+    max-width: 120px; /* Atribuimos aqui um tamanho máximo de largura que essa Class irá exercer*/
+    margin: 0 auto; /*Dizermos ao navegador que as margens superior e inferior são iguais a 0 
+    as da esquerda e direita são automáticas */
+}
+
+form{ /*aqui chamamos nosso form para estilização*/
+    background-color: rgba(0, 0, 0, 0.459); /*Colocamos uma cor de fundo */
+    width: 500px; /*Atribuimos aqui um tamanho máximo de largura que esse formulário irá 
+    exercer*/
+    height: 450px; /*Largura do formulário*/
+    padding: 20px;/*preenchimento*/
+    border-radius: 20px;/*Arredondamento das bordas do formulário*/ 
+    margin-left: -175px;
+
+}
+
+form h1{ /*Chamamos nosso texto para estilização*/
+    text-align: center; /*Alinhamneto ao centro*/
+    font-size: 30px; /*Tamanho da letra */
+    color: white; /*Cor da letra*/
+}
+
+form p { /*Chamamos nosso paragrafo para estilização */
+    color: white;
+    text-align: center; /*Alinhando para o centro nosso paragrafo*/
+    margin: 20px 0; /*dizemos ao navegador que as margens superior e inferior são iguais a 20 e as 
+    da esquerda e direita são 0*/
+}
+
+.input-single{ /*Chamamos nossa class que está encabeçada nas div's dos nossos input e Label*/
+    position: relative; /*posição relativa*/
+    margin: 20px;/*dizemos ao navegador que as margens superior e inferior são iguais a 20 e as da esquerda e da direita são 0*/
+    text-decoration: none;
+
+}
+
+.input-single label{/* chamamos nossa label para estilização*/
+    position: absolute;/* atribuimos uma posição absoluta em relação ao formulario*/
+    left: 0;/* zeramos a margin esquerda*/
+    bottom: 5px;/* margem inferiorn atribuimos para 5px*/
+    transition: all 0,2;/* inserimos uma transição total para 0,2*/
+    cursor: text;/* aqui é para quando passar o mouse, aparecer o indicador de texto*/
+    color: white;
+}
+
+.input{/*aqui chamamos nosso submit ou seja, o botão para estilização*/
+    width: 100%;/* largura*/
+    border: 0;/* tamanho da borda*/
+    border-bottom: 2px solid #ccc;/* estilização na borda inferior */
+    padding: 5px;/*preeenchimento do input*/
+    font-size: 17px;/*tamanho da font*/
+    outline: 0;/**/
+    background: none;
+    color: white;
+}
+
+form .input-single .input:focus ~ label,/* */
+form .input-single .input:valid ~ label{/* */
+    transform: translateY(-25px);/* */
+    font-size: 12px;/* */
+    color: white;/* */
+    transition: 1s;
+} 
+
+
+
+form input[type=submit]{/* aqui estilizamos nosso botão de enviar*/
+    padding: 12px 45px;/* preenchimento da altura e largura do botão*/
+    border: 0;/*aqui zeramos a borda*/
+    border-radius: 10px;/* colocamos aqui um arredondamento no botão*/
+    background-color: #ffc506;
+    color: white;/* cor da letra do botão*/
+    cursor: pointer;/*torna o botão em algo clicavel*/
+    align-items: center;
+}
+form input[type=submit]:hover{
+background-color: #ffc506;
+padding: 15px 50px;
+transition: 1s;
+font-size: 17px;
+}
+
+#button{
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+
+    <section id="form-section"> <!-- damos um nome para nossa Sections a qual chamará "form-conteiner" -->
+
+        <div class="div-form">
+
+            <form action="formulario.php">
+                <h1>PIZZA HUB <br></h1> <br> 
+
+
+                <h2>FAÇA LOGIN!</h2>
+
+                <p>Faça login para participar de promoções e receber cupons gratuitos de descontos</p>
+                <!-- Pequena descrição usando a TAG de paragráfo -->
+
+                <div class="input-single"> <!-- Aqui criamos uma DIV para inserirmos nossa Label e Input-->
+                <input type="text" id="nome-box" class="input" name="nome" autocomplete="off"
+                required> <!-- Atribuimos os nome de identificação que serão usadas no PHP-->
+                <label for="">Nome completo</label> <!--Aqui colocamos o nome que irá aparecer do lado
+                da nossa caixa (input)-->
+                </div>
+                    
+                <div class="input-single">
+                    <input type="email" id="email-box" class="input" name="email" autocomplete="off"
+                    required>
+                    <label for="email-box">Seu email </label>
+                    </div>
+
+                <div class="input-single">
+                    <input type="number" id="tel-box" class="input" name="telefone" autocomplete="off"
+                    required>
+                    <label for="tel-box">Seu telefone </label>
+                    </div>
+            
+                    <div id="button">
+                        <input type="submit" value="Enviar">
+                    </div>
+
+            </form>
+
+        </div>
+
+
+
+    
+</body>
+</html>
