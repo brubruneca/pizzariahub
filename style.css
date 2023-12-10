@@ -183,49 +183,96 @@ padding-left: 1rem;
 }
 
 #cardapio {
-    padding: 30px;
-
-}
-
-.section-products {
-    margin-top: 3em;
+    width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-
-}
-
-.imagens-cardapio {
-    width: 280px;
-    height: 280px;
-    align-items: center;
+    justify-content: center;
+    background-color: rgba(12, 12, 12, 0.7);
     
 }
 
+#cardapio h2 {
+    font-size: 5rem;
+    color: #e6e6e6;
+    margin-top: 60px;   
+}
 
-.text-products { /*chamamos nosso titulo para estilização*/
-    margin-top: 10px; /*espaçamento do titulo em relação a img*/
-    font-family: Arial, Helvetica, sans-serif; /*familia da fonte*/
-    text-align: center; /*alinhamento do texto ao centro*/
-    font-size: 22px; /*tamanho da letra*/
+.itens-cardapio {
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 
+ .info {
+    background-color: rgb(221, 221, 221);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+ .info h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+ .info h4 {
+    font-size: 1.4rem;  
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    margin-left: 6rem;
+}
+
+ .info h4 span{
+    font-size: 1.6rem;
+    color:#585858;
+    margin-left: 1.5rem;
+    text-decoration: underline;
+}
+
+.caixa {
+    background-color: #5e5252;
+    box-shadow: 0px 0px 4px 1px ;
+}
+
+.itens-cardapio img {
+    width: 100%;
+    height: 200px;
+}
+
+.itens-cardapio .info .pedir {
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: #ffc506;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: all 200ms ease-in;
+}
+
+.itens-cardapio .info .pedir:hover {
+    background-color: #5e5252;
+    color: rgb(255, 255, 255);
 }
 
 
-#cardapio > a { /*aqui chamamos nossa tag "a" para estilização*/
-    text-decoration: none; /*desabilitamos a decoração (sublinhado)*/
-    font-family: Arial, Helvetica, sans-serif; /*familia de fonte*/
-    font-size: 20px; /*tamanho da fonte */
-    color: black; /*cor da letra */
-    display: flex; /*jogando lado a lado*/
-    justify-content: end; /*alinhando ao centro*/
-    text-align: end; /*alinhando ao centro*/
 
-}
-#cardapio > h2 {
-    text-align: center;
-    font-size: 40px;
-}
+
+
 
 @media (max-width:430px){
 
