@@ -144,6 +144,84 @@ padding-left: 1rem;
     
 }
 
+
+/* Estilo para o h2 com o efeito de digitação */
+.efeito-digitar {
+    overflow: hidden;
+    border-right: 2px solid orange;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    animation: entrada-saida 5s steps(50, end) ;   /* REMOVI O "infinite" DO FINALDO CODIGO PARA O LETREIRO PARA */
+}
+
+/* Animação para o efeito de entrada, pausa e repetição */
+@keyframes entrada-saida {
+    0%, 100% {
+        width: 0;
+    }
+    70% {  /* Velocidade de entrada do "\ta com fome ? ....... */
+        width: 100%;
+    }
+}
+
+/* Animação para o cursor piscando */
+.efeito-digitar::after {
+    content: '|';
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    animation: piscar-cursor 0.5s; /* REMOVI O "infinite" DO FINALDO CODIGO PARA PARA O CURSOR */
+}
+
+/* Animação para o cursor amarelo piscando */
+@keyframes piscar-cursor {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* ----------------   ARÉA DOS EFEITOS DO h2  " PIZZAHUB " TITULO    ------------------------- */
+
+
+/* Estilo para o h1 com o efeito de sombra pulsante */
+.efeito-sombra {
+    display: inline-block;
+    position: relative;
+    font-size: 3em; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+/* Animação para a sombra pulsante */
+.efeito-sombra::before {
+    content: '';
+    position: absolute;
+    top: -2px; /* Ajusta o posicionamento para a sombra não cobrir o texto */
+    left: -5px; /* Ajusta o posicionamento para a sombra não cobrir o texto */
+    width: calc(100% + 10px); /* Aumenta a largura */
+    height: calc(80% + 10px); /* Aumenta a altura */
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 15px yellow; /* Aumenta o tamanho da sombra */
+    animation: pulsar-sombra 2s infinite;
+}
+
+/* Animação para a sombra pulsante */
+@keyframes pulsar-sombra {
+    0%, 100% {
+        box-shadow: 0 0 15px yellow;
+    }
+    50% {
+        box-shadow: 0 0 25px yellow;
+    }
+}
+
+
 .first-section h1 {
     color: #ffc506;
     font-size: 90px;
