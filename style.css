@@ -375,64 +375,78 @@ padding-left: 1rem;
     margin: 0 auto;
 }
 
-/*-----------------------------------------------------------*/
+/*-----------------------------------------*/
+
 #cardapio{
-    align-items: center;
+    width: 100%;
+    flex-direction: column;
 }
 
-#cardapio h2{
-    font-size: 50px;
+.caixa{
+    width: 75%;
 }
 
-#cardapio h4{
-    font-size: 20pt;
-    text-align: center;
-    margin-top: 10px;
+.info{
+
+    width: 100%;
+    height: 240px;
 }
 
+.itens-cardapio img{
 
-.section-products{
-    display: block;
-    margin-top: 50px;
-}
-
-
-.div-products img{
-    margin: 0 auto;
-    margin-top: 13%;
-}
-
-.div-products h4{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    height: 175px;
+    width: 175px;
 
 }
 
-.div-products p {
-    font-size: 20px;
+.info h3{
+font: 1.2rem;
 
 }
 
-
-.imagens-cardapio{
-justify-content: center;
-text-align: center;
-
+.info h4{
+font-size: 1.2rem;
+margin-right: -50px;
 }
 
-#cardapio a{
+.info h4 span{
+    font-size: 1.2rem;
+    margin-left: -50px;
+}
 
-color: #ffc506;
-justify-content: center;
-margin-top: 20px;
-font-size: 20pt;
-
+#cardapio .ver-mais{
+    font-size: 70pt;
+    color: #ffc506;
 }
 
 /*--------------------------------------------------*/
 
+#contatos{
+    width: 100%;
+
+}
+
+.contatos-secao{
+    display: block;
+}
 
 
+.div-footer{
+    font-size: 20pt;
+    text-align: center;
+}
+
+#sobre-nos{
+
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#sobre-nos a{
+    color: white;
+}
 
 
 
