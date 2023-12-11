@@ -271,7 +271,10 @@ padding-left: 1rem;
     transition: all 200ms ease-in;
 }
 
-.itens-cardapio .info .pedir:hover {
+.pedir a {
+    color: black;
+}
+.pedir:hover {
     background-color: #5e5252;
     color: rgb(255, 255, 255);
 }
