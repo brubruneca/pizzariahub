@@ -2,19 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000;
+    color: #ffffff;
+    background: url(img/0002.jpg);
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #000000;
+    color: #ffe604ec;
     text-align: center;
-    padding: 1em;
+    padding: 20px;
 }
 
 nav {
-    background-color: #444;
-    color: #fff;
+    background-color: #000000;
+    color: #000000;
     text-align: center;
     padding: 0.5em;
 }
@@ -31,7 +33,7 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: #ffffff;
 }
 
 .menu-item {
@@ -41,12 +43,62 @@ h2 {
     border-bottom: 1px solid #ccc;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+#menu > h2 {
     text-align: center;
-    padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background: url(img/bg-instagram.webp);
+    color: #ffff;
+    padding: 20px;
+    
+
+    
+}
+#header{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+#header ul a {
+    padding-top: 3rem;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px; 
+    
+}
+#header ul a:hover{
+    background-color: #3333;
+    border-bottom: 4px solid  #ffc506;
+    color: #ffc506;
+    transition: 0.2s;
+}
+#contacto{
+    color: #fff;
+    font-size: 20px;
+    background: linear-gradient(180deg, #000000 8.33%, rgba(255, 230, 0, 0) 100%) 
+    padding-box
+}
+#Pizza {
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+    font-size: 30px;
+    color: #ffffff;
+}
+#menu-pizza{
+    /* alterando o id menu pizza */
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3rem;
+    font-size: 30px;
+    color: #ffc506;
+    background-color: #000000;
+}
+#menu-itens{
+    font-size: 30px;
+}
+#header{
+   /* estilizacão do header com degrade  */
+    background: linear-gradient(180deg, #000000 8.33%, rgba(255, 230, 0, 0) 100%) 
 }
