@@ -195,7 +195,8 @@ padding-left: 1rem;
 #cardapio h2 {
     font-size: 5rem;
     color: #e6e6e6;
-    margin-top: 60px;   
+    margin-top: 50px;
+    margin-bottom: 30px;      
 }
 
 .itens-cardapio {
@@ -205,7 +206,13 @@ padding-left: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    
+    
+
+}
+
+.itens-cardapio img .pizza-marguerita {
+    size: 5px;
 }
 
  .info {
@@ -220,7 +227,6 @@ padding-left: 1rem;
 
  .info h3 {
     font-size: 1.8rem;
-    text-transform: uppercase;
     margin-bottom: 1rem;
     text-decoration: underline;
 }
@@ -231,28 +237,29 @@ padding-left: 1rem;
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 180px 180px;
     margin-left: 6rem;
 }
 
  .info h4 span{
-    font-size: 1.6rem;
-    color:#585858;
-    margin-left: 1.5rem;
+    font-size: 1.4rem;
+
+    color: black;
     text-decoration: underline;
 }
 
 .caixa {
     background-color: #5e5252;
-    box-shadow: 0px 0px 4px 1px ;
+    box-shadow: 0px 0px 6px 1px ;
 }
 
 .itens-cardapio img {
-    width: 100%;
-    height: 200px;
+    width: 100%;    
+    height: 250px;
+   
 }
 
-.itens-cardapio .info .pedir {
+.pedir {
     width: 200px;
     height: 35px;
     margin-top: 0.5rem;
@@ -267,6 +274,42 @@ padding-left: 1rem;
 .itens-cardapio .info .pedir:hover {
     background-color: #5e5252;
     color: rgb(255, 255, 255);
+}
+
+
+#contatos {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding: 40px;
+}
+
+
+
+.contatos-secao {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    
+}
+
+.contatos-secao i{
+    margin-right: 1rem;
+
+}
+
+.contatos-secao div{
+    cursor: pointer;
+}
+
+.contatos-secao div:hover{
+    color: #ffc506;
 }
 
 
