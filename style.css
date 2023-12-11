@@ -280,6 +280,21 @@ padding-left: 1rem;
 }
 
 
+.Ver-mais {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin-left: 84%;
+        
+}
+
+.Ver-mais:hover {
+    color: #967406;
+    transition: 0.2s;
+}
+
+
 #contatos {
     width: 100%;
     background-color: black;
