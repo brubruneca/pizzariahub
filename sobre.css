@@ -1,107 +1,144 @@
-header {
-    display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
-    align-items: center; /*Alinhar os itens do nosso Header para o centro*/
-    justify-content: space-evenly; /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
-    padding: 15px;  /* Cuida do Preenchimento */
-    background-color: rgb(0, 0, 0); /* Cor de fundo do nosso Cabeçalho/Header */
-    overflow: hidden; /* */
-    width: 100vw; /* altura da linha */
-    height: 70px;  /* altura máxima */
-    position: fixed;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62;
+    overflow-x: hidden;
+}
+
+.logo-pizzahub {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-pizzahub img {
+    width: 70px;
+    height: 70px;
+    margin-right: 80px;
+}
+
     
-}
+    /*----------------------------------------------------------------------------------------------------*/
 
-header > h1 {  /* Selecionamos aqui a cor da letra do nosso H1 ou seja, do nosso título */
-  color: white; /* chamamos a propriedade color e definimos uma cor em questão */ 
-  font-size: 30px;
-}
-
-
-#menu-header { /* Nosso menu de navegação*/
-  display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
-  align-items: center; /* Alinhar os itens do nosso Header para o centro */
-}
-
-#list-menu {  /* Nossa lista não ordenada, aqui mudaremos diretamente nossa lista */
-  display: flex; /* Resposável por colocar os itens na mesma linha (lado a lado) */
-  margin-right: 1rem; /* margem da direita. 1 REM equivale a 16px, ou seja podemos usa-lo para facilitar a inserção de PX*/
-}
-
-.home { /* Nossas li que estão dentro do LIST MENU, onde se encontram os nomes dos itens apresentados no HEADER */
-  margin-right: 25px; /* margem da direita */
-}
-
-.home > a:hover { /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO, e o Hover responsável pela modificação de cor ao passar o cursor em cima.*/
-    background-color: #3333;
-    border-bottom: 4px solid  #ffc506;
-    color: #ffc506;
-    transition: 0.2s; /* E o tempo em que será exibido ao passar o cursor */
-}
-
-.home > a { /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO */
-  color: white; /* Cor das letras */
-  text-decoration: none; /* Responsável por tirar o sublinhado inferior que estava visível */
-  font-size: 24px; /* Tamanho da letra */
-} 
-#sobre-nos { /* Chamamos aqui nossa ID */
-    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(img/pizza-2.webp); /* Usado para inserir a imagem de fundo */
-    background-repeat: no-repeat; /* Aqui colocamos a função para a imagem não seja repetida */
-    background-attachment: fixed; /* */
-    background-position: center; /* Na posição da imagem colocamos ao centro */
-    background-size: cover; /* */
-    padding: 120px; /* */
-}
-
-#sobre-nos > h3 {  /* */
-    color: white; /* */
-    font-size: 64px; /* */
-    text-align: center; /* */
-    font-family: 'Ubuntu', 'sans-serif'; /* */
-}
-
-#sobre-nos >  p {   /* */ 
-    font-family: 'Ubuntu', 'sans-serif'; /* */
-    font-weight: 500; /* */
-    color: white; /* */
-    font-size: 22px; /* */
-    margin-top: 2em; /* */
-    text-align: left; /* */
     
-}
-footer {    /* */
-    padding: 80px;  /* */
-    background-position: bottom;  /* */
-    background-repeat: no-repeat;  /* */
     
-}
+    
+    
+    /*---------------------------------------------------------------------------------------------------------*/
+    .content {
+        padding: 60px;
+        width: 100vw;
+        height: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        padding-left: 30rem;
+    }
+    
+    .content h3{
+        font-size: 25px;
+        margin-right: 80px;
+        color: #ffc506;
+        justify-content: space-between;
+    }
+    
+    .list-menu {
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .list-menu li a {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        color: white;
+        font-size: 20px;
+        font-weight: 500px;
+    }
+    
+    .list-menu li a:hover {
+        background-color: #3333;
+        border-bottom: 4px solid  #ffc506;
+        color: #ffc506;
+        transition: 0.2s;
+    }
+    
+    
+    
+    #contatos {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: Center;
+        align-items: center;
+        font-size: 1.8rem;
+        color: white;
+        padding: 40px;
+    }
+    
+    
+    
+    .contatos-secao {
+        width: 650px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        
+    }
+    
+    .contatos-secao i{
+        margin-right: 1rem;
+        
+    }
+    
+    .contatos-secao div{
+        cursor: pointer;
+    }
+    
+    .contatos-secao div:hover{
+        color: #ffc506;
+    }
+  
+    
+ /*------------------------------------------------------------------------------------------------------------*/
+ 
+ 
 
-footer > ul {   /* */
-    display: flex;  /* */
-    justify-content: space-evenly;  /* */
-}
-footer > h2 {  /* */
-    color: black bold; /* */
-    font-size: 40px;  /* */
-    font-weight: bold;  /* */
-    text-align: center;  /* */
-    margin-bottom: 1em;  /* */
-}
+    h1{
+        text-align: center;
+        color: #ffc506;
+        margin-top: -150px;
+        font: normal 50pt arial;
+    }
 
-.item-menu-footer {  /* */
-    display: flex;  /* */
-    align-items: center;  /* */
-    margin-top: 30px;  /* */
-}
 
-.footer > img {  /* */
-    width: 34px;  /* */
-    height: 34px;  /* */
-}
+    #sobre-nos{
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(imagens/massa-de-pizza.webp);
+    background-position: bottom;
+    padding: 13rem;
+    }
 
-.item-menu-footer > p {  /* */
-    color: black bold; /* */
-    font-size: 24px; /* */
-    font-weight: bold; /* */
-    margin-left: 10px; /* */
-}
+    p{
+        color: #ffc506;
+        margin-top: 15px;
 
+    }
