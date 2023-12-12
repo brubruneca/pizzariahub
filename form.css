@@ -75,6 +75,16 @@ form p { /*Chamamos nosso paragrafo para estilização */
     color: white;
 }
 
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}               
+
 form .input-single .input:focus ~ label,/* */
 form .input-single .input:valid ~ label{/* */
     transform: translateY(-25px);/* */
