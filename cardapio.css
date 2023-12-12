@@ -4,7 +4,8 @@ body {
     padding: 0;
     background-color: #000000;
     color: #ffffff;
-    background: url(img/0002.jpg);
+    background: url(img/madeirada\ black.jpg);
+    background-attachment: fixed;
 }
 
 header {
@@ -74,8 +75,8 @@ h2 {
 #contacto{
     color: #fff;
     font-size: 20px;
-    background: linear-gradient(180deg, #000000 8.33%, rgba(255, 230, 0, 0) 100%) 
-    padding-box
+    background-color: #000000;
+
 }
 #Pizza {
     text-align: center;
@@ -101,4 +102,8 @@ h2 {
 #header{
    /* estilizacão do header com degrade  */
     background: linear-gradient(180deg, #000000 8.33%, rgba(255, 230, 0, 0) 100%) 
+}
+#footer{
+    font-size: 15px;
+    text-align: center;
 }
