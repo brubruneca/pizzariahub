@@ -143,6 +143,11 @@ padding-left: 1rem;
     justify-content: center;
     
 }
+.ver-mais a {
+    font-size: 20px;
+    text-align: center;
+    
+}
 
 
 /* Estilo para o h2 com o efeito de digitação */
