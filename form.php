@@ -9,7 +9,7 @@
 <body>
 
 <header>
-        <h1>Cadastro de Clientes | Padaria Santista</h1>
+        <h1>Cadastro de Clientes | Pizza HUB</h1>
     </header>
 
     <main class = "text">
@@ -18,7 +18,7 @@
             $telefone = $GET [ "telefone"]
             $email = $GET ["email"]
 
-            echo "<p> Obrigado  por cadastrar-se em nosso site $nome. Esperamos que desfrute de uma ótima experiência, agradecemos pela preferência e confiança em nossos serviços!<\p>" ;
+            echo "<p> Obrigado  por cadastrar-se em nosso site $nome Esperamos que desfrute de uma ótima experiência, agradecemos pela preferência e confiança em nossos serviços!<\p>"
         ?>
 
         <button class = "button-home" >

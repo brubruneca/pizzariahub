@@ -58,7 +58,7 @@ form p { /*Chamamos nosso paragrafo para estilização */
 .input-single label{/* chamamos nossa label para estilização*/
     position: absolute;/* atribuimos uma posição absoluta em relação ao formulario*/
     left: 0;/* zeramos a margin esquerda*/
-    bottom: 5px;/* margem inferiorn atribuimos para 5px*/
+    bottom: 5px;/* margem inferior atribuimos para 5px*/
     transition: all 0,2;/* inserimos uma transição total para 0,2*/
     cursor: text;/* aqui é para quando passar o mouse, aparecer o indicador de texto*/
     color: white;

@@ -142,3 +142,8 @@ html {
         margin-top: 15px;
 
     }
+    #footer{
+        text-align: center;
+        align-items: center;
+        margin-top: 90px;
+    }
