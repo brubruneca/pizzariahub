@@ -105,7 +105,7 @@ padding-left: 1rem;
 }
 
 .first-section {
-    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(imagens/massa-de-pizza.webp);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(imagens/PizzaGirando.gif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@ padding-left: 1rem;
     padding: 0;
     display: inline-block;
     position: relative;
-    animation: entrada-saida 5s steps(50, end) ;   /* REMOVI O "infinite" DO FINALDO CODIGO PARA O LETREIRO PARA */
+    animation: entrada-saida 5s steps(50, end) infinite ;   /* REMOVI O "infinite" DO FINALDO CODIGO PARA O LETREIRO PARA */
 }
 
 /* Animação para o efeito de entrada, pausa e repetição */
@@ -179,7 +179,7 @@ padding-left: 1rem;
     right: 0;
     width: 10px;
     height: 100%;
-    animation: piscar-cursor 0.5s; /* REMOVI O "infinite" DO FINALDO CODIGO PARA PARA O CURSOR */
+    animation: piscar-cursor 0.5s infinite; /* REMOVI O "infinite" DO FINALDO CODIGO PARA PARA O CURSOR */
 }
 
 /* Animação para o cursor amarelo piscando */
