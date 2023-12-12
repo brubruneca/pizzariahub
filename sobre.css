@@ -1,1 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62;
+    overflow-x: hidden;
+}
+
+.logo-pizzahub {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-pizzahub img {
+    width: 70px;
+    height: 70px;
+    margin-right: 80px;
+}
+
+    
+    /*----------------------------------------------------------------------------------------------------*/
+
+    
+    
+    
+    
+    /*---------------------------------------------------------------------------------------------------------*/
+    .content {
+        padding: 60px;
+        width: 100vw;
+        height: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: black;
+        padding-left: 30rem;
+    }
+    
+    .content h3{
+        font-size: 25px;
+        margin-right: 80px;
+        color: #ffc506;
+        justify-content: space-between;
+    }
+    
+    .list-menu {
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .list-menu li a {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        color: white;
+        font-size: 20px;
+        font-weight: 500px;
+    }
+    
+    .list-menu li a:hover {
+        background-color: #3333;
+        border-bottom: 4px solid  #ffc506;
+        color: #ffc506;
+        transition: 0.2s;
+    }
+    
+    
+    
+    #contatos {
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: Center;
+        align-items: center;
+        font-size: 1.8rem;
+        color: white;
+        padding: 40px;
+    }
+    
+    
+    
+    .contatos-secao {
+        width: 650px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        
+    }
+    
+    .contatos-secao i{
+        margin-right: 1rem;
+        
+    }
+    
+    .contatos-secao div{
+        cursor: pointer;
+    }
+    
+    .contatos-secao div:hover{
+        color: #ffc506;
+    }
+  
+    
+ /*------------------------------------------------------------------------------------------------------------*/
+ 
+ 
+
+    h1{
+        text-align: center;
+        color: #ffc506;
+        margin-top: -150px;
+        font: normal 50pt arial;
+    }
+
+
+    #sobre-nos{
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(imagens/massa-de-pizza.webp);
+    background-position: bottom;
+    padding: 13rem;
+    }
+
+    p{
+        color: #ffc506;
+        margin-top: 15px;
+
+    }
