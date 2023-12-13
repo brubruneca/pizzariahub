@@ -37,8 +37,8 @@ form{ /*aqui chamamos nosso form para estilização*/
 
 form h1{ /*Chamamos nosso texto para estilização*/
     text-align: center; /*Alinhamneto ao centro*/
-    font-size: 30px; /*Tamanho da letra */
-    color: white; /*Cor da letra*/
+    font-size: 50px; /*Tamanho da letra */
+    color: #ffc506; /*Cor da letra*/
 }
 
 form p { /*Chamamos nosso paragrafo para estilização */
@@ -147,18 +147,15 @@ font-size: 17px;
     margin-top: 40px;
 }
 
-<<<<<<< HEAD
+
 #button a {              /* Eu Edinho testando E ESTILIZANDO o botao voltar */
-    color: #ccc;
+    color:#ffc506;
     text-align: center;
     margin-top: 40px;
 }
-=======
-
->>>>>>> 09ef85d4d54f868fe5e8e77cc156c55d4c895093
 
 h2{
-    color: white;
+    color: rgb(248, 238, 92);
     text-align: center;
 }
 
