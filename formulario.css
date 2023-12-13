@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(imagens/pizza\ ph.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+header h1{
+    text-align: center;
+    color: #ffc506;
+}
+
+.text{
+
+    text-align: center;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.button-home{
+
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+
+.button-home:hover{
+
+    background-color: rgba(61, 60, 60, 0.493);
+
+}
+
+.button-home a:hover
+
