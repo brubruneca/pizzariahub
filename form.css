@@ -123,6 +123,7 @@ font-size: 17px;
     color: white;/* cor da letra do botão*/
     cursor: pointer;/*torna o botão em algo clicavel*/
     align-items: center;
+    text-decoration: none; /* Remove o sublinhado do texto do link */
 }
 
 #button a[href="index.html"]:hover{
@@ -131,9 +132,6 @@ font-size: 17px;
     transition: 1s;
     font-size: 17px;
     }
-
-
-
 
 #button{
 
