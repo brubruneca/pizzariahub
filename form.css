@@ -104,6 +104,8 @@ form input[type=submit]{/* aqui estilizamos nosso botão de enviar*/
     cursor: pointer;/*torna o botão em algo clicavel*/
     align-items: center;
 }
+
+
 form input[type=submit]:hover{
 background-color: #ffc506;
 padding: 15px 50px;
@@ -111,14 +113,42 @@ transition: 1s;
 font-size: 17px;
 }
 
+/*   ==========================     Eu Edy adicionei os stilos do botão Voltar  ==========================  */
+
+#button a[href="index.html"]{/* aqui estilizamos nosso botão de enviar*/
+    padding: 12px 45px;/* preenchimento da altura e largura do botão*/
+    border: 0;/*aqui zeramos a borda*/
+    border-radius: 10px;/* colocamos aqui um arredondamento no botão*/
+    background-color: #ffc506;
+    color: white;/* cor da letra do botão*/
+    cursor: pointer;/*torna o botão em algo clicavel*/
+    align-items: center;
+}
+
+#button a[href="index.html"]:hover{
+    background-color: #ffc506;
+    padding: 15px 50px;
+    transition: 1s;
+    font-size: 17px;
+    }
+
+
+
+
 #button{
 
     text-align: center;
     margin-top: 40px;
 }
 
-#button >a {
+#button a{
 
+    text-align: center;
+    margin-top: 40px;
+}
+
+#button a {              /* Eu Edinho testando E ESTILIZANDO o botao voltar */
+    color: #ccc;
     text-align: center;
     margin-top: 40px;
 }
