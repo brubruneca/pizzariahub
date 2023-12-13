@@ -363,17 +363,18 @@ padding-left: 1rem;
 }
 
 
-.Ver-mais {
-    font-size: 15px;
-    color: black;
+.ver-mais {
+    font-size: 30px;
+    color: white;
     text-align: center;
     justify-content: center;
-    margin-left: 84%;
+    margin-left: 48%;
+    text-decoration-line: underline;
         
 }
 
-.Ver-mais:hover {
-    color: #967406;
+.ver-mais:hover {
+    color: #ffc506;
     transition: 0.2s;
 }
 
@@ -413,6 +414,14 @@ padding-left: 1rem;
     color: #ffc506;
 }
 
+#sobre-nos a{
+    color: white;
+}
+
+#sobre-nos a:hover{
+
+    color: #ffc506;
+}
 
 
 
@@ -529,6 +538,11 @@ margin-right: -50px;
 
 #sobre-nos a{
     color: white;
+}
+
+#vermais    .ver-mais{
+    font-size: 20px;
+    margin-left: 38%;
 }
 
 

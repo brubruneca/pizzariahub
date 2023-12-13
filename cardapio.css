@@ -78,7 +78,7 @@ h2 {
     background-color: #000000;
 
 }
-#Pizza {
+#pizza {
     text-align: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -109,6 +109,27 @@ h2 {
 }
 
 @media (max-width: 430px){
+    header{
+        display: none;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    #pizza h5{
+        color: #ffc506;
+        text-align: center;
+        font-size: 100px;
+    }
+
+    #p-footer{
+        display: none;
+    }
+
+    #contacto h2{
+        text-align: center;
+    }
 
 .menu-itens{
     display: block;
@@ -116,7 +137,7 @@ h2 {
 
 .span{
 
-    font-size: 150px;
+    font-size: 20px;
 }
 
     
