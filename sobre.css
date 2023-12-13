@@ -127,7 +127,7 @@ html {
         text-align: center;
         color: #ffc506;
         margin-top: -150px;
-        font: normal 50pt arial;
+        font-size: 4.8em;
     }
 
 
@@ -146,4 +146,63 @@ html {
         text-align: center;
         align-items: center;
         margin-top: 90px;
+    }
+
+
+    @media (max-width:430px) {
+
+        .logo-pizzahub img {
+            width: 100%;
+            height: 60px;
+            margin-left: 58px;      
+
+        }
+
+
+        .content h3 {
+            font-size: 20px;
+        }
+
+       
+
+        #sobre-nos {
+            padding: 100px;   
+            display: block;
+            flex-direction: column;
+            font-size: 0.8em;   
+
+
+        
+        }
+
+         h1 {
+           font-size: 30px;
+           margin-top: 1px;    
+
+           
+          
+        }
+    
+         p {
+            font: bold;
+            font-size: 15px;
+            display: flex;
+            
+            margin-top: 60px;  
+        
+
+            
+        }
+
+
+        .contatos-secao  {
+            justify-content: center;
+            font-size: 18px;
+            justify-content: space-evenly;
+            margin-left: 3px;  
+            
+
+        }
+
+
     }
