@@ -15,7 +15,7 @@
 
         <div class="div-form">
 
-            <form action="form.php">
+            <form action="form.php" method="get">
                 <h1>PIZZA HUB <br></h1> <br> 
 
 
@@ -26,7 +26,7 @@
 
                 
                 <div class="input-single"> <!-- Aqui criamos uma DIV para inserirmos nossa Label e Input-->
-                <input type="text" id="nome-box" class="input" name="nome" autocomplete="off"
+                <input type="text" id="nome" class="input" name="nome" autocomplete="off"
                 required> <!-- Atribuimos os nome de identificação que serão usadas no PHP-->
                 <label for="">Nome completo</label> <!--Aqui colocamos o nome que irá aparecer do lado
                 da nossa caixa (input)-->
@@ -34,16 +34,16 @@
                     
 
                 <div class="input-single">
-                    <input type="email" id="email-box" class="input" name="email" autocomplete="off"
+                    <input type="email" id="email" class="input" name="email" autocomplete="off"
                     required>
-                    <label for="email-box">Seu email </label>
+                    <label for="email">Seu email </label>
                     </div>
 
 
                 <div class="input-single">
-                    <input type="number" id="tel-box" class="input" name="telefone" autocomplete="off"
+                    <input type="number" id="telefone" class="input" name="telefone" autocomplete="off"
                     required>
-                    <label for="tel-box">Seu telefone </label>
+                    <label for="telefone">Seu telefone </label>
                     </div>
             
 

@@ -14,11 +14,11 @@
 
     <main class = "text">
         <?php
-            $nome = $_GET [ "nome"]
-            $telefone = $GET [ "telefone"]
-            $email = $GET ["email"]
+            $nome = $_GET ["nome"];
+            $telefone = $_GET ["telefone"];
+            $email = $_GET ["email"];
 
-            echo "<p> Obrigado  por cadastrar-se em nosso site $nome Esperamos que desfrute de uma ótima experiência, agradecemos pela preferência e confiança em nossos serviços!<\p>"
+            echo "<p> Obrigado  por cadastrar-se em nosso site $nome Esperamos que desfrute de uma ótima experiência, agradecemos pela preferência e confiança em nossos serviços! <\p>"
         ?>
 
         <button class = "button-home" >
