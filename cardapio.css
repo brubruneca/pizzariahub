@@ -110,7 +110,14 @@ h2 {
 
 @media (max-width: 430px){
 
+.menu-itens{
+    display: block;
+}
 
+.span{
+
+    font-size: 150px;
+}
 
     
 }
