@@ -230,7 +230,30 @@ header h1{
 }
 
 /* SECCION RESPONSIVE */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 430px) {
+
+    header{
+        height: 100px;
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255, 208, 0) 68%);
+    }
+
+    .list-menu li a {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .list-menu li a:hover{
+        transition: 0.5s;
+        background-color: #000;
+        background-attachment: fixed;
+    }
+
+
+
+
+
     .contenedor {
       display: block;
     }
